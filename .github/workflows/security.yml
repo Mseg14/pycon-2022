@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Secret Detection
-        uses: zricethezav/gitleaks-action@master
+        uses: gitleaks/gitleaks-action@v1.6.0
 
   DAST:
     runs-on: ubuntu-latest
